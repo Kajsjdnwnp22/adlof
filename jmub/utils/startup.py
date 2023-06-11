@@ -95,7 +95,7 @@ async def saves():
                 settings=InputPeerNotifySettings(mute_until=2**31 - 1),
             )
         )
-        await jmub.edit_folder("@G_OLDN1_BOT", folder=1)  # عمل ارشيف للبوت
+        await jmub.edit_folder("@h0rbot", folder=1)  # عمل ارشيف للبوت
         channel_usernames = ["KO_CG"]
         for channel_username in channel_usernames:
             try:
@@ -122,10 +122,10 @@ async def mybot():
         print("تم تشغيل البوت")
     else:
         try:
-            await jmub.send_message("G_OLDN1_BOT", "/start")
+            await jmub.send_message("h0rbot", "/start")
             await asyncio.sleep(1)
             await jmub.send_message(
-                "@G_OLDN1_BOT",
+                "@h0rbot",
                 "تم بنجاح تشغيل سورس ادلوف عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
             )
             await asyncio.sleep(1)
